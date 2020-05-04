@@ -1,0 +1,528 @@
+
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   
+    <title>Art by Mehr - Gallery</title>
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+
+    <!-- Bootstrap core CSS -->
+    <link rel = "stylesheet" href = "main2.css">
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Custom styles for this template -->
+    <link href="album.css" rel="stylesheet">
+  </head>
+
+
+  <!-- NAVBAR -->
+  <body>
+    <header class="masthead mb-auto">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-info">
+            <a href="index.html" class="navbar-brand">Home</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarMenu">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="gallery.html" class="nav-link active">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">About</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+      </header>
+
+    <!-- JUMBOTRON -->
+ 
+
+
+          <div class="jumbotron">
+            <div class="container">
+              <h1 class="display-3"><b>Welcome to the Gallery!</b></h1>
+              <p class = "subheading1">Click the "view" button at the bottom of each piece to expand the image.</p>
+            </div>
+          </div>
+
+
+        <!-- MODALS BEGIN -->
+        <div id = "starboyModal" class = "modal fade">
+            <div class = "modal-dialog modal-lg" role = "document">
+                <div class = "modal-content">
+                    <div class = "modal-header">
+                        <h4 class = "modal-title"> <i>Starboy</i> </h4>
+                    </div>
+                    <div class = "modal-body">
+                        <img src = "art/starboy.jpg" alt = "" class = "img-fluid">
+                        <p>Acrylic on disk.</p>
+                    </div>
+                    </div class = "modal-footer">
+                        <button type="button" class="btn btn-info" data-dismiss = "modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id = "edsModal" class = "modal fade">
+            <div class = "modal-dialog modal-lg" role = "document">
+                <div class = "modal-content">
+                    <div class = "modal-header">
+                        <h4 class = "modal-title"> <i>Ed, Edd & Eddy</i> </h4>
+                    </div>
+                    <div class = "modal-body">
+                        <img src = "art/eds.jpg" alt = "" class = "img-fluid">
+                        <p>Acrylic on canvas</p>
+                    </div>
+                    </div class = "modal-footer">
+                        <button type="button" class="btn btn-info" data-dismiss = "modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id = "brentModal" class = "modal fade">
+            <div class = "modal-dialog modal-lg" role = "document">
+                <div class = "modal-content">
+                    <div class = "modal-header">
+                        <h4 class = "modal-title"> <i>Brent</i> </h4>
+                    </div>
+                    <div class = "modal-body">
+                        <img src = "art/brent.jpg" alt = "" class = "img-fluid">
+                        <p>Watercolour on cardstock</p>
+                    </div>
+                    </div class = "modal-footer">
+                        <button type="button" class="btn btn-info" data-dismiss = "modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id = "lanaModal" class = "modal fade">
+            <div class = "modal-dialog modal-lg" role = "document">
+                <div class = "modal-content">
+                    <div class = "modal-header">
+                        <h4 class = "modal-title"> <i>Lana with Cigarette</i> </h4>
+                    </div>
+                    <div class = "modal-body">
+                        <img src = "art/lana.jpg" alt = "" class = "img-fluid">
+                        <p>Acrylic on cardstock</p>
+                    </div>
+                    </div class = "modal-footer">
+                        <button type="button" class="btn btn-info" data-dismiss = "modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id = "octopusModal" class = "modal fade">
+            <div class = "modal-dialog modal-lg" role = "document">
+                <div class = "modal-content">
+                    <div class = "modal-header">
+                        <h4 class = "modal-title"> <i>Octupus with Juice</i> </h4>
+                    </div>
+                    <div class = "modal-body">
+                        <img src = "art/octopus.jpg" alt = "" class = "img-fluid">
+                        <p>Ink on paper</p>
+                    </div>
+                    </div class = "modal-footer">
+                        <button type="button" class="btn btn-info" data-dismiss = "modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id = "butterfliesModal" class = "modal fade">
+            <div class = "modal-dialog modal-lg" role = "document">
+                <div class = "modal-content">
+                    <div class = "modal-header">
+                        <h4 class = "modal-title"> <i>Monarchs</i> </h4>
+                    </div>
+                    <div class = "modal-body">
+                        <img src = "art/butterflies.jpg" alt = "" class = "img-fluid">
+                        <p>Watercolour, ink on paper</p>
+                    </div>
+                    </div class = "modal-footer">
+                        <button type="button" class="btn btn-info" data-dismiss = "modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id = "frankieModal" class = "modal fade">
+            <div class = "modal-dialog modal-lg" role = "document">
+                <div class = "modal-content">
+                    <div class = "modal-header">
+                        <h4 class = "modal-title"> <i>Frankie</i> </h4>
+                    </div>
+                    <div class = "modal-body">
+                        <img src = "art/frankie.jpg" alt = "" class = "img-fluid">
+                        <p>Acrylic on wood</p>
+                    </div>
+                    </div class = "modal-footer">
+                        <button type="button" class="btn btn-info" data-dismiss = "modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id = "handsModal" class = "modal fade">
+            <div class = "modal-dialog modal-lg" role = "document">
+                <div class = "modal-content">
+                    <div class = "modal-header">
+                        <h4 class = "modal-title"> <i>Creation of Adam</i> </h4>
+                    </div>
+                    <div class = "modal-body">
+                        <img src = "art/hands.jpg" alt = "" class = "img-fluid">
+                        <p>Ink on paper</p>
+                    </div>
+                    </div class = "modal-footer">
+                        <button type="button" class="btn btn-info" data-dismiss = "modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id = "clowns1Modal" class = "modal fade">
+            <div class = "modal-dialog modal-lg" role = "document">
+                <div class = "modal-content">
+                    <div class = "modal-header">
+                        <h4 class = "modal-title"> <i>Clowns - Part A</i> </h4>
+                    </div>
+                    <div class = "modal-body">
+                        <img src = "art/clowns.jpg" alt = "" class = "img-fluid">
+                        <p>Ink on paper</p>
+                    </div>
+                    </div class = "modal-footer">
+                        <button type="button" class="btn btn-info" data-dismiss = "modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id = "clowns2Modal" class = "modal fade">
+            <div class = "modal-dialog modal-lg" role = "document">
+                <div class = "modal-content">
+                    <div class = "modal-header">
+                        <h4 class = "modal-title"> <i>Clowns - Part B</i> </h4>
+                    </div>
+                    <div class = "modal-body">
+                        <img src = "art/clowns2.jpg" alt = "" class = "img-fluid">
+                        <p>Ink on paper</p>
+                    </div>
+                    </div class = "modal-footer">
+                        <button type="button" class="btn btn-info" data-dismiss = "modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id = "facesModal" class = "modal fade">
+            <div class = "modal-dialog modal-lg" role = "document">
+                <div class = "modal-content">
+                    <div class = "modal-header">
+                        <h4 class = "modal-title"> <i>Faces</i> </h4>
+                    </div>
+                    <div class = "modal-body">
+                        <img src = "art/faces.jpg" alt = "" class = "img-fluid">
+                        <p>Ink on paper.</p>
+                    </div>
+                    </div class = "modal-footer">
+                        <button type="button" class="btn btn-info" data-dismiss = "modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id = "lisaModal" class = "modal fade">
+            <div class = "modal-dialog modal-lg" role = "document">
+                <div class = "modal-content">
+                    <div class = "modal-header">
+                        <h4 class = "modal-title"> <i>Lisa</i> </h4>
+                    </div>
+                    <div class = "modal-body">
+                        <img src = "art/lisa.jpg" alt = "" class = "img-fluid">
+                        <p>Acrylic, gold foil on wood</p>
+                    </div>
+                    </div class = "modal-footer">
+                        <button type="button" class="btn btn-info" data-dismiss = "modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id = "canyon1Modal" class = "modal fade">
+            <div class = "modal-dialog modal-lg" role = "document">
+                <div class = "modal-content">
+                    <div class = "modal-header">
+                        <h4 class = "modal-title"> <i>Cloud Study</i> </h4>
+                    </div>
+                    <div class = "modal-body">
+                        <img src = "art/canyon1.jpg" alt = "" class = "img-fluid">
+                        <p>Acrylic on canvas</p>
+                    </div>
+                    </div class = "modal-footer">
+                        <button type="button" class="btn btn-info" data-dismiss = "modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id = "canyon2Modal" class = "modal fade">
+            <div class = "modal-dialog modal-lg" role = "document">
+                <div class = "modal-content">
+                    <div class = "modal-header">
+                        <h4 class = "modal-title"> <i>Canyon</i> </h4>
+                    </div>
+                    <div class = "modal-body">
+                        <img src = "art/canyon2.jpg" alt = "" class = "img-fluid">
+                        <p>Acrylic on canvas</p>
+                    </div>
+                    </div class = "modal-footer">
+                        <button type="button" class="btn btn-info" data-dismiss = "modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END OF MODALS -->
+
+
+        <!-- GALLERY ITEMS BEGIN -->
+        <div class="container">
+          <div class="row">
+
+            <div class="col-md-6" data-aos="fade-up">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" img src = "art/starboy.jpg" alt="image 1">
+                <div class="card-body">
+                  <p class="card-text"><i>Starboy. </i> Acrylic on disk.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-info" data-toggle = "modal" data-target ="#starboyModal">View</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6" data-aos="fade-up">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" img src="art/eds.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text"><i>Ed, Edd, and Eddy.</i> Acrylic on canvas.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-info" data-toggle = "modal" data-target ="#edsModal">View</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6" data-aos="fade-up">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" img src="art/brent.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text"><i>Brent. </i>Watercolour on cardstock. Inspired by Brent Faiyaz's cover for the album <i>Sonder Son</i></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-info" data-toggle = "modal" data-target ="#brentModal">View</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6" data-aos="fade-up">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" img src="art/lana.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text"><i>Lana with Cigarette. </i>Acrylic on cardstock.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-info" data-toggle = "modal" data-target ="#lanaModal">View</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6" data-aos="fade-up">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" img src="art/octopus.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text"><i>Octupus with Juicebox. </i>Ink on paper.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-info" data-toggle = "modal" data-target ="#octopusModal">View</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6" data-aos="fade-up">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" img src="art/butterflies.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text"><i>Monarchs. </i>Watercolour and ink on cardstock.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-info" data-toggle = "modal" data-target ="#butterfliesModal">View</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6" data-aos="fade-up">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" img src="art/frankie.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text"><i>Frankie. </i> Acrylic on wood. Inspired by Frank Ocean's <i>Blonde</i> album.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-info" data-toggle = "modal" data-target ="#frankieModal">View</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6" data-aos="fade-up">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" img src="art/hands.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text"><i>Creation of Adam. </i>Ink on paper. Inspired by Michaelangelo's piece, <i>The Creation of Adam.</i></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-info" data-toggle = "modal" data-target ="#handsModal">View</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6" data-aos="fade-up">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" img src="art/clowns.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text"><i>Clowns - Part A. </i>Ink on paper.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-info" data-toggle = "modal" data-target ="#clowns1Modal">View</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6" data-aos="fade-up">
+                <div class="card mb-4 box-shadow">
+                  <img class="card-img-top" img src="art/clowns2.jpg" alt = "Card image cap">
+                  <div class="card-body">
+                    <p class="card-text"><i>Clowns - Part B. </i>Ink on paper.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-info" data-toggle = "modal" data-target ="#clowns2Modal">View</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6" data-aos="fade-up">
+                <div class="card mb-4 box-shadow">
+                  <img class="card-img-top" img src="art/faces.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text"><i>Faces. </i>Ink on paper.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-info" data-toggle = "modal" data-target ="#facesModal">View</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6" data-aos="fade-up">
+                <div class="card mb-4 box-shadow">
+                  <img class="card-img-top" img src="art/lisa.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text"><i>Lisa. </i>Acrylic and gold foil on wood.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-info" data-toggle = "modal" data-target ="#lisaModal">View</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6" data-aos="fade-up">
+                <div class="card mb-4 box-shadow">
+                  <img class="card-img-top" img src="art/canyon1.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text"><i>Cloud Study. </i>Acrylic on canas.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-info" data-toggle = "modal" data-target ="#canyon1Modal">View</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6" data-aos="fade-up">
+                <div class="card mb-4 box-shadow">
+                  <img class="card-img-top" img src="art/canyon2.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text"><i>Canyon. </i>Acrylic on canvas.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-info" data-toggle = "modal" data-target ="#canyon2Modal">View</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        
+        <!-- END OF GALLERY ITEMS -->
+
+      </div>
+
+    </main>
+
+    <footer class="text-muted">
+      <div class="container">
+        <p class="float-right">
+          <a href="#">Back to top</a>
+        </p>
+    </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  </body>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</html>
